@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taleek | Task</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- The header -->
+    <!-- I can take two approaches
+        1-Assume that the logo, nav and background image are the header of our page
+        2-Assume that logo and are the header, and background image is a seprate section
+    -->
+    <header class="header">
+      <div class="container">
+        <!-- Header top -->
+        <div class="header__top">
+          <div class="header__logo-box">
+            <img
+              src="./logo2.png"
+              alt="Logo of the page"
+              class="header__logo"
+            />
+            <span class="header__logo-title">Taleek</span>
+          </div>
+          <!-- The navigation menu -->
+          <nav class="header__navigation">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link active">Home</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Discussion</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Header middle -->
+      <div class="header__middle">
+        <div class="header__core">
+          <h1 class="header__heading">Taleek</h1>
+          <div class="header__image-box">
+            <img
+              class="header__image"
+              src="./Taleek.svg"
+              alt="A photo of a deer"
+            />
+          </div>
+        </div>
+        <!-- The app -->
+        <div class="header__app">
+          <!-- I assume that that download button is a link because it will take him to
+            another link. -->
+          <a class="header__app-link" href="#">Download</a>
+          <p class="header__download-text">
+            <ion-icon class="header__icon" name="logo-apple"></ion-icon>
+            <span class="header__span">
+              <span class="header__span--small">Download on the</span>
+              <span class="header__span--big">App store</span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </header>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
